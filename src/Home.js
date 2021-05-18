@@ -1,6 +1,10 @@
 import React from 'react';
-export const Home =()=>{
+export const Home =(props)=>{
     return(
-        <h1>world</h1>
+        <>
+        <h1>
+            {props.heading}
+        </h1>
+        </>
     )
 }
